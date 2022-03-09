@@ -20,5 +20,3 @@ MOM6 CCS 75lev
 "ocean_model", "geolon_v",    "geolon_v",    "ocean_static", "all", "none", "none", 2
 "ocean_model", "areacello",   "areacello",   "ocean_static", "all", "none", "none", 2
 
-"ice_model",  "CI_tot",     "aice",      "ocean_daily", "all", "mean", "none",2
-
