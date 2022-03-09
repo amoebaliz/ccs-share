@@ -33,7 +33,7 @@
             dt_atmos = 3600,
             do_atmos = .false.,
             do_land = .false.,
-            do_ice = .true.,
+            do_ice = .false.,
             do_ocean = .true.,
             do_flux = .true.,
             atmos_npes = 0,
