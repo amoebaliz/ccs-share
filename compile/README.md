@@ -14,6 +14,8 @@ git clone git@github.com:CICE-Consortium/Icepack.git
 ```rust
 cd MOM6-examples
 git submodule update --init --recursive
+cd ../Icepack
+git submodule update --init --recursive
 ```
 if using the gregorian calendar to initialize (as with demo), make the following changes:
 	
@@ -22,6 +24,6 @@ if using the gregorian calendar to initialize (as with demo), make the following
 - Line 319: use time_manager_mod,        only: operator (*), THIRTY_DAY_MONTHS, JULIAN
 + Line 319: use time_manager_mod,        only: operator (*), THIRTY_DAY_MONTHS, JULIAN, GREGORIAN
 
-+ Line 1289: case( 'GREGORIAN' )
-+ Line 1290:   calendar_type = GREGORIAN
++ Line 1290: case( 'GREGORIAN' )
++ Line 1291:   calendar_type = GREGORIAN
 ```
