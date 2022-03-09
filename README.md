@@ -10,7 +10,7 @@ We recommend referencing the [MOM6-examples wiki](https://github.com/NOAA-GFDL/M
 2. Download JRA atmospheric forcing using ```wget -i run/demo/jra_urls.txt``` and place the files in ```run/demo/INPUT/```
 The model will crash due to the long length of the comment attribute in the RLDS file. To fix, ```ncatted -O -a comment,rlds,d,, rlds_input4MIPs_atmosphericState_OMIP_MRI-JRA55-do-1-5-0_gr_198001010130-198012312230.nc```
 3. Create a job script and submit.
-   - The demo is set to use 812 (20x50 - 188 masked) processors but this can be modified
-   - Layout modifications are made in ```run/demo/input.nml```,```run/demo/MOM_layout```, and ```run/demo/SIS_layout```; if using a processor mask, ```run/demo/INPUT/MOM_mask_table```, it will have to be regenerated to match the layout configuration.
+   - The demo is set to use 265 (10x30 - 35 masked) processors but this can be modified
+   - Layout modifications are made in ```run/input.nml```,```run/MOM_layout```, and ```run/SIS_layout```; if using a processor mask, ```run/INPUT/MOM_mask_table```, it will have to be regenerated to match the layout configuration.
  
 
