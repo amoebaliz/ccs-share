@@ -27,7 +27,7 @@
             months = 12,
             days   = 0,
             hours  = 0,
-            current_date = 1980,1,1,0,0,0,
+            current_date = 1980,1,3,13,0,0,
             calendar = 'gregorian',
             dt_cpld = 3600,
             dt_atmos = 3600,
