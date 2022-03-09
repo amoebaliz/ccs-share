@@ -14,7 +14,7 @@ git clone git@github.com:CICE-Consortium/Icepack.git
 ```rust
 cd MOM6-examples
 git submodule update --init --recursive
-
+```
 if using the gregorian calendar to initialize (as with demo), make the following changes:
 	
 - MOM6-examples/src/coupler/coupler_main.F90:
